@@ -1,0 +1,12 @@
+ai_begins/
+├── venv/                   # Your existing virtual environment
+├── main.py                 # Entry point (your AI Agent logic)
+├── config.py               # Settings (select which OCR to use here)
+├── ocr_engines/            # Folder for your OCR wrappers
+│   ├── __init__.py
+│   ├── base.py             # Defines the blueprint (interface)
+│   ├── tesseract.py        # Tesseract implementation
+│   ├── nanonets.py         # Nanonets/HuggingFace implementation
+│   └── paddle.py           # The "Middle" implementation
+├── output/                 # Where OCR results get saved
+└── requirements.txt

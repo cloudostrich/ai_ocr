@@ -1,0 +1,35 @@
+
+# TESSERACT
+## 1. Update system and install Tesseract + English data
+sudo pacman -Syu tesseract tesseract-data-eng
+
+## 2. Install basic build tools (needed for some python extensions)
+sudo pacman -S base-devel
+
+
+# PADDLE
+## 1. install paddlepaddle
+pip install paddlepaddle==2.6.1 -i https://mirror.baidu.com/pypi/simple
+
+## 2. Install C++ dependencies
+sudo pacman -S libglvnd openmp
+
+
+# NANONETS
+## 1. install pytorch cpu version to avoid accidentally grabbing gpu version
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+## 2. nanonets: download the brain
+curl -L -o models/nanonets/Nanonets-OCR2-1.5B-exp-i1-Q4_K_M.gguf "https://huggingface.co/mradermacher/Nanonets-OCR2-1.5B-exp-i1-GGUF/resolve/main/Nanonets-OCR2-1.5B-exp.i1-Q4_K_S.gguf"
+
+## 3. nanonets: download the eyes
+curl -L -o models/nanonets/Nanonets-OCR2-1.5B-exp.mmproj-Q8_0.gguf "https://huggingface.co/mradermacher/Nanonets-OCR2-1.5B-exp-GGUF/resolve/main/Nanonets-OCR2-1.5B-exp.mmproj-Q8_0.gguf
+
+
+# PIPS
+## 1. Use local venv always
+source venv/bin/activate
+
+## 2. steps to install all pips
+## Go through all above steps 1st, then pip install -r requirements
+pip install -r requirements.txt
