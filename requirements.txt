@@ -6,13 +6,6 @@ opencv-python-headless
 pytesseract
 pdf2image
 
-
-# --- Option 2: PaddleOCR (Middle Ground) ---
-# We will use a specific index-url in the install command, 
-# but we list the packages here.
-paddlepaddle>=3.0.0
-paddleocr>=2.9.0
-
 # --- Option 3: Nanonets / Hugging Face (Heavy) ---
 # The Nanonets-OCR-s model is based on Qwen2.5-VL.
 # You need these specific libraries to run it.
@@ -22,3 +15,4 @@ transformers
 accelerate
 bitsandbytes
 qwen-vl-utils
+

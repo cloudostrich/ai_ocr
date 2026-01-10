@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 
 llm = Llama(
-    model_path="zoo/Llama-3.2-3B-Instruct-Q5_K_M.gguf",
+    model_path="models/nanonets/Nanonets-OCR2-1.5B-exp.i1-Q4_K_M.gguf",
     n_ctx=2048,
     n_threads=4,
     n_gpu_layers=0,

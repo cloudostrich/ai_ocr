@@ -8,7 +8,7 @@ class NanonetsOCR:
         # 1. PATHS
         # Use absolute path to ensure reliability
         base_path = os.path.abspath("models/nanonets")
-        model_path = os.path.join(base_path, "Nanonets-OCR2-1.5B-exp-i1-Q4_K_M.gguf")
+        model_path = os.path.join(base_path, "Nanonets-OCR2-1.5B-exp.i1-Q4_K_M.gguf")
         # Filename from directory listing
         mmproj_path = os.path.join(base_path, "Nanonets-OCR2-1.5B-exp.mmproj-Q8_0.gguf")
 

@@ -1,5 +1,5 @@
 # config.py
-# Options: "tesseract", "paddle", "nanonets"
+# Options: "tesseract", "paddle", "nanonets", "easyocr"
 OCR_ENGINE = "paddle" 
 
 # Hardware saving mode for Nanonets (Critical for 8GB RAM)
