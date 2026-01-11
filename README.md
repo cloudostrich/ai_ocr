@@ -1,7 +1,7 @@
 # ai_ocr
 OCR engines for AI agents
 
-## Instructions Overview
+# Installation Instructions Overview
 After cloning this git folder, cd into folder and run each step below in sequence.
 
 ## 1. Installation For All Engines
@@ -57,5 +57,21 @@ pip install llama-cpp-python \
 pip install -r requirements.txt
 
 
+
+# How to use. After installation above is successful, follow below steps to run the ocr.
+
+## 1. cd into folder and activate the python virtual environment (venv)
+$ cd ai_ocr
+$ source venv/bin/activate
+
+## 2. From the root folder, run the main.py with args <pdf_file_sample> --engine <engine name>
+## the pdf file samples are in samples folder
+## the 3 options for engine names are tesseract, easyocr, nanonets
+## for eg.
+python main.py samples/July2024.pdf --engine easyocr.
+
+# thats it for now
+
 # To-Do-list
+## Feed read text to a csv in a usable format.
 ## Create a bash file to run most of above steps automatically
