@@ -15,4 +15,4 @@ transformers
 accelerate
 bitsandbytes
 qwen-vl-utils
-
+google-genai
