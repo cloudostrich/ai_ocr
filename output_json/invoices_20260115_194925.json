@@ -1,0 +1,25 @@
+{
+  "invoices": [
+    {
+      "supplier_name": "Monopole Pte Ltd",
+      "date": "15/05/2024",
+      "amount": 196.2,
+      "payment_terms": "30 Days",
+      "invoice_number": "IN-058371"
+    },
+    {
+      "supplier_name": "WINE CLIQUE PTE LTD",
+      "date": "16/05/2024",
+      "amount": 235.44,
+      "payment_terms": "45 DAYS",
+      "invoice_number": "SINV16-21276"
+    },
+    {
+      "supplier_name": "Grand Vin Pte Ltd",
+      "date": "16/04/2024",
+      "amount": 575.52,
+      "payment_terms": "Net 60 days",
+      "invoice_number": "GV2024-08313"
+    }
+  ]
+}

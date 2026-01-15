@@ -7,7 +7,10 @@ After cloning this git folder, cd into folder and run each step below in sequenc
 ## 1. Installation For All Engines
 ### i. Install dependencies for all 3 OCR engines. Update system first.
 sudo pacman -Syu
-sudo pacman -S base-devel poppler cmake git python openblas libglvnd openmp libsm libxrender  openblas--needed
+
+sudo pacman -S openblas
+
+sudo pacman -S base-devel poppler cmake git python libglvnd openmp libsm libxrender --needed
 
 ### ii. Install Tesseract + English data
 sudo pacman -S tesseract tesseract-data-eng
@@ -42,10 +45,10 @@ pip install easyocr
 python setup_easyocr.py
 
 ### v. Install LlamaCpp. We can pip install the binary or build from source for better performance. Choose 1 of the 2 following options:
-#### a. pip install binary
+#### a. You can pip install binary
 pip install llama-cpp-python
 
-#### b. build-from-source
+#### b. Or build from source
 CMAKE_ARGS="-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS" \
 pip install llama-cpp-python \
   --no-binary llama-cpp-python \

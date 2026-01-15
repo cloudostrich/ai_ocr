@@ -1,0 +1,4 @@
+Transaction Date,Value date,Description,Transaction Type,Amount, dr/cr,Accounting Entries,,cr/dr,user to input
+,,,withdrawals,,cr,bank,dr,?
+,,,,,,,,
+,,,Deposits,,dr,bank,cr,?

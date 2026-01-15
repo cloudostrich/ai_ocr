@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "transaction_date": "2024-08-01",
+      "value_date": "2024-08-01",
+      "description": "GIRO PAYMENT GBR2408012",
+      "type": "withdrawal",
+      "amount": 843.66
+    },
+    {
+      "transaction_date": "2024-08-01",
+      "value_date": "2024-08-01",
+      "description": "GIRO CHARGES GBR2408012",
+      "type": "withdrawal",
+      "amount": 0.2
+    },
+    {
+      "transaction_date": "2024-08-02",
+      "value_date": "2024-08-02",
+      "description": "IBG GIRO GOVT S$ IRAS via PayNow: 121820615-CIT CG 2012",
+      "type": "deposit",
+      "amount": 2000.0
+    },
+    {
+      "transaction_date": "2024-08-14",
+      "value_date": "2024-08-14",
+      "description": "FAST TRANSFER BEXP S$ AP HOUSE PT CPFJULY2024 Via PayNow: QBECP240814165519278",
+      "type": "withdrawal",
+      "amount": 500.0
+    },
+    {
+      "transaction_date": "2024-08-14",
+      "value_date": "2024-08-14",
+      "description": "FAST CHARGES BEXP OCBC AP HOUSE PTE. LTD. QBECP240814165519278",
+      "type": "withdrawal",
+      "amount": 0.5
+    },
+    {
+      "transaction_date": "2024-08-30",
+      "value_date": "2024-08-30",
+      "description": "FAST PAYMENT RENT AP HOUSE PTE L GBR2408012 AP House Rent Sep 2024",
+      "type": "withdrawal",
+      "amount": 843.66
+    },
+    {
+      "transaction_date": "2024-08-30",
+      "value_date": "2024-08-30",
+      "description": "FAST CHARGES RENT AP HOUSE PTE L GBR2408012 AP House Rent Sep 2024",
+      "type": "withdrawal",
+      "amount": 0.5
+    },
+    {
+      "transaction_date": "2024-09-01",
+      "value_date": "2024-08-31",
+      "description": "SERVICE CHARGE",
+      "type": "withdrawal",
+      "amount": 35.0
+    }
+  ]
+}

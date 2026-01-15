@@ -5,3 +5,7 @@ class OCREngine(ABC):
     @abstractmethod
     def extract_text(self, image_path: str) -> str:
         pass
+
+    def cleanup(self):
+        """Optional cleanup method to free resources."""
+        pass
