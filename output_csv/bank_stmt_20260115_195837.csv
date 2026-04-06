@@ -1,9 +1,0 @@
-Transaction Date,Value date,Description,Transaction Type,Amount,dr/cr,Accounting Entries,cr/dr,user to input
-2024-08-01,2024-08-01,GIRO PAYMENT GBR2408012,withdrawals,843.66,cr,bank,dr,
-2024-08-01,2024-08-01,GIRO CHARGES GBR2408012,withdrawals,0.2,cr,bank,dr,
-2024-08-02,2024-08-02,IBG GIRO GOVT S$ IRAS via PayNow: 121820615-CIT CG 2012,Deposits,2000.0,dr,bank,cr,
-2024-08-14,2024-08-14,FAST TRANSFER BEXP S$ AP HOUSE PT CPFJULY2024 Via PayNow: QBECP240814165519278,withdrawals,500.0,cr,bank,dr,
-2024-08-14,2024-08-14,FAST CHARGES BEXP OCBC AP HOUSE PTE. LTD. QBECP240814165519278,withdrawals,0.5,cr,bank,dr,
-2024-08-30,2024-08-30,FAST PAYMENT RENT AP HOUSE PTE L GBR2408012 AP House Rent Sep 2024,withdrawals,843.66,cr,bank,dr,
-2024-08-30,2024-08-30,FAST CHARGES RENT AP HOUSE PTE L GBR2408012 AP House Rent Sep 2024,withdrawals,0.5,cr,bank,dr,
-2024-09-01,2024-08-31,SERVICE CHARGE,withdrawals,35.0,cr,bank,dr,
